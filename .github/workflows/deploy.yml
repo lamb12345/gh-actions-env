@@ -8,7 +8,7 @@ env:
   MONGODB_DB_NAME: gha_demo
 jobs:
   test:
-    environment: testing
+    environment: staging
     env:
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME  }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD  }}
